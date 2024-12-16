@@ -1,7 +1,7 @@
 {
   "name": "house_rental_demo",
   "version": "1.0.0",
-  "description": "",
+  "description": "* express for rest ap\r *",
   "type": "module",
   "main": "app.js",
   "scripts": {
@@ -15,11 +15,21 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.21.1"
+    "bcrypt": "^5.1.1",
+    "express": "^4.21.2",
+    "multer": "^1.4.5-lts.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.12.0",
     "eslint": "^9.12.0",
     "globals": "^15.11.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hagendaehne1/BoardingHouseWebsite.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hagendaehne1/BoardingHouseWebsite/issues"
+  },
+  "homepage": "https://github.com/hagendaehne1/BoardingHouseWebsite#readme"
 }

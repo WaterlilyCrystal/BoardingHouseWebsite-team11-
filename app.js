@@ -1,7 +1,7 @@
 import express from 'express'
 import path from 'path'
 import { env } from 'process'
-import { initializeData } from './models/Initializer.js'
+import { initializeData } from './entities/Initializer.js'
 
 import authRoutes from './routes/authRoutes.js';
 import listingRoutes from './routes/listingRoutes.js';
@@ -10,7 +10,7 @@ import listingRoutes from './routes/listingRoutes.js';
 initializeData();
 
 const app = express();
-const port = env.PORT || 3000;
+const port = env.PORT || 3100;
 
 app.use(express.static(path.join(import.meta.dirname, 'public')));
 app.use(express.static(path.join(import.meta.dirname, 'resources')));

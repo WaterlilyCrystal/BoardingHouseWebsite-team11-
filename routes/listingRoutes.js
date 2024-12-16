@@ -1,7 +1,7 @@
 import express from 'express';
 
-import ListingController from '../models/ListingController.js';
-import Listing from '../models/Listing.js';
+import ListingController from '../entities/PostListingController.js';
+import Listing from '../entities/Post.js';
 import upload from '../multer/config.js'
 
 const router = express.Router();
